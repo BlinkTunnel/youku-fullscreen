@@ -1,2 +1,2 @@
 # youku-fullscreen
-优酷播放器网页全屏
+Chrome 扩展 - 优酷播放器网页全屏
