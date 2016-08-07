@@ -1,6 +1,10 @@
 # youku-fullscreen
 Chrome 扩展 - 优酷播放器网页全屏
 
+# 使用方法
+
+现在推荐使用 userscript 的版本而非Chrome扩展。
+
 #LICENSE
 The MIT License (MIT)
 
