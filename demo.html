@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .toggle {
+      z-index: 99999;
+      display: block;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      opacity: 0;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+      transition: all 250ms ease-in;
+    }
+
+    .toggle:hover {
+      opacity: 1;
+    }
+    
+    .toggle--checkbox {
+      display: none;
+    }
+    
+    .toggle--btn {
+      display: block;
+      margin: 0 auto;
+      font-size: 1.4em;
+      transition: all 350ms ease-in;
+    }
+    
+    .toggle--btn:hover {
+      cursor: pointer;
+    }
+    
+    .toggle--btn,
+    .toggle--btn:before,
+    .toggle--btn:after,
+    .toggle--checkbox,
+    .toggle--checkbox:before,
+    .toggle--checkbox:after,
+    .toggle--feature,
+    .toggle--feature:before,
+    .toggle--feature:after {
+      transition: all 250ms ease-in;
+    }
+    
+    .toggle--btn:before,
+    .toggle--btn:after,
+    .toggle--checkbox:before,
+    .toggle--checkbox:after,
+    .toggle--feature:before,
+    .toggle--feature:after {
+      content: '';
+      display: block;
+    }
+    
+    @keyframes neon {
+      0% {
+        text-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 25px #fff, 0 0 40px #FF9900, 0 0 70px #FF9900, 0 0 90px #FF9900, 0 0 90px #FF9900;
+      }
+      100% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF9900, 0 0 35px #FF9900, 0 0 40px #FF9900, 0 0 50px #FF9900;
+      }
+    }
+    
+    .toggle--neon .toggle--btn {
+      font-family: Audiowide;
+      text-transform: uppercase;
+      font-size: 2em;
+      color: #a0a0a0;
+      text-shadow: 0 0 10px transparent, 0 0 15px transparent, 0 0 25px transparent, 0 0 40px transparent, 0 0 70px transparent, 0 0 90px transparent, 0 0 90px transparent;
+    }
+    
+    .toggle--neon .toggle--btn:before,
+    .toggle--neon .toggle--btn:after {
+      display: inline-block;
+      margin: 0 20px;
+      transition: all 220ms ease-in-out;
+    }
+    
+    .toggle--neon .toggle--btn:before {
+      content: attr(data-label-off);
+      animation: neon 1.5s ease-in-out infinite alternate;
+      animation-delay: 90ms;
+      color: #f1f1f1;
+    }
+    
+    .toggle--neon .toggle--btn:after {
+      content: attr(data-label-on);
+    }
+    
+    .toggle--neon .toggle--checkbox:checked + .toggle--btn:before {
+      animation: none;
+      color: #a0a0a0;
+    }
+    
+    .toggle--neon .toggle--checkbox:checked + .toggle--btn:after {
+      animation: neon 1.5s ease-in-out infinite alternate;
+      animation-delay: 90ms;
+      color: #f1f1f1;
+    }
+  </style>
+</head>
+
+<body>
+  <script src="youku-fullscreen.userscript.js"></script>
+</body>
+
+</html>
