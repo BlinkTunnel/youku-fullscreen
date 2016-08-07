@@ -5,6 +5,10 @@ Chrome 扩展 - 优酷播放器网页全屏
 
 现在推荐使用 userscript 的版本而非Chrome扩展。
 
+在 [https://openuserjs.org/scripts/gucheen/YouKu_Fullscreen](https://openuserjs.org/scripts/gucheen/YouKu_Fullscreen) 安装脚本。
+
+播放页面可以看到 ON/OFF 按钮，点击切换网页全屏。
+
 #LICENSE
 The MIT License (MIT)
 
