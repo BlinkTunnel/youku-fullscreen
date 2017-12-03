@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouKu Fullscreen
 // @namespace    gucheen
-// @version      0.12
+// @version      0.13
 // @description  Webpage Fullscreen for YouKu.com
 // @author       gucheen
 // @match        http*://v.youku.com/v_show/*
