@@ -9,7 +9,7 @@ Chrome 扩展 - 优酷播放器网页全屏
 
 播放页面可以看到 ON/OFF 按钮，点击切换网页全屏。
 
-#LICENSE
+# LICENSE
 The MIT License (MIT)
 
 Copyright (c) 2016 BlinkTunnel Lab.
